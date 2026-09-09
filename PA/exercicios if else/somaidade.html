@@ -1,0 +1,11 @@
+<script>
+    var anoNascimento = parseFloat(prompt("entre com o ano de nascimento"));
+    var anoAtual = parseFloat(prompt("Entre com o ano atual"));
+    var idade = anoAtual-anoNascimento;
+    document.write("a idade eh"+idade+"<br>");
+    if(idade<18){
+        document.write("menor de idade");
+    } else {
+        document.write("maior de idade");
+    }
+</script>

@@ -1,0 +1,92 @@
+<script>
+    var mes =parseInt(prompt("insira seu mes de nascimento"));
+    var dia = parseInt(prompt("insira o dia do seu nascimento"));
+    switch (mes) {
+        case 4:
+if(dia<=20) {
+    document.write("Aries");
+} else {
+    document.write("Touro");
+}
+    break;
+    case 5:
+if (dia<=20){
+    document.write("touro");
+} else {
+    document.write("Gémeos");
+}
+    break;
+    case 6:
+if (dia<=20) {
+    document.write("Gémeos");
+} else {
+    document.write("Cancer");
+}
+    break;
+    case 7:
+if (dia<=22){
+    document.write("cancer");
+} else {
+    document.write("leao");
+}
+    break;
+    case 8:
+if(dia<=22){
+     document.write("leao");
+} else {
+     document.write("virgem");
+}
+    break;
+    case 9:
+if(dia<=22){
+     document.write("virgem");
+} else {
+     document.write("libra");                               
+}
+    break;
+    case 10:
+if(dia<=22) {
+    document.write("libra");
+}else {
+    document.write("escorpião");
+}
+    break;
+    case 11:
+if(dia<=21) {
+    document.write("escorpião");
+} else {
+    document.write("sagitario");
+}
+    break;
+    case 12:
+if(dia<=21){
+    document.write("sagitario");
+} else {
+    document.write("capricornio")
+}
+    break;
+    case 1:
+if(dia<=20){
+    document.write("capricornio");
+} else {
+    document.write("aquario");
+}
+    break;
+    case 2:
+if(dia>=19){
+    document.write("aquario");
+} else {
+    document.write("peixes");
+}
+    break;
+    case 3:
+if(dia<20) {
+    document.write("aquario");
+} else {
+    document.write("aries");
+}
+    default:
+        document.write("mes invalido")
+
+}
+</script>

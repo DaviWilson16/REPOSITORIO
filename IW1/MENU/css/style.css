@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+#titulo{
+        color: rgb(36, 162, 36);
+        text-align: center;
+}
+
+nav{
+    background: rgb(63, 96, 228);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f6d5f8;
+    background: rgb(37, 221, 73)
+}
+
+p{
+    color: #4497d3;
+}
+
+.paragrafoTres{
+    color: #878484;
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+<script>
+    var preco = parseFloat(prompt(" Entre com o preço"));
+    var desconto;
+    var valorFinal; 
+    if (preco > 1000) {
+        desconto = preco * 0.10;
+    } else  {
+        desconto = preco * 0.05;
+    }
+    valorFinal = preco - desconto;
+    document.write ("o valor final a pagar e" + valorFinal);
+</script>
