@@ -1,0 +1,14 @@
+<script>
+    var i = 1;
+    while (i <= 6){
+        var anoNasc = parseInt(prompt("Digite o ano de nascimento:"));
+        var anoAtual = parseInt(prompt("Digite o ano atual:"));
+        var idade = anoAtual - anoNasc;
+        if (idade >= 18){
+            document.write("Maior de idade<br>");
+        } else {
+            document.write("Menor de idade<br>");
+        }
+        i++;
+    }
+</script>
