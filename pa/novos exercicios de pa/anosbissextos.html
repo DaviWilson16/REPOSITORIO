@@ -1,0 +1,16 @@
+<script>
+var anoInicial = parseInt(prompt("Digite o ano inicial:"));
+var anoFinal = parseInt(prompt("Digite o ano final:"));
+var ano = anoInicial;
+var quantidade = 0;
+
+while (ano <= anoFinal) {
+    if (ano % 4 === 0) {
+        quantidade++;
+    }
+
+    ano++;
+}
+
+document.write("Existem " + quantidade + " anos bissextos no intervalo.");
+</script>

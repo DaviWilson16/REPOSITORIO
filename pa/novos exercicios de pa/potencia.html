@@ -1,0 +1,13 @@
+<script>
+var base = parseInt(prompt("Digite a base:"));
+var expoente = parseInt(prompt("Digite o expoente:"));
+var resultado = 1;
+var i = 0;
+
+while (i < expoente) {
+    resultado = resultado * base;
+    i++;
+}
+
+document.write(base + " elevado a " + expoente + " = " + resultado);
+</script>
